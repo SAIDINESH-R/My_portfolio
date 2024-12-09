@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachakonda Sai Dinesh - Data Scientist & Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --background-color: #ecf0f1;
+            --text-color: #34495e;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            position: relative;
+            color: white;
+            padding: 20px 0;
+            overflow: hidden;
+        }
+        #gradient-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        h1, h2, h3 {
+            color: var(--secondary-color);
+        }
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .skill {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+        }
+        .project {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+        .project h3 {
+            color: var(--accent-color);
+        }
+        .gradient-text {
+            background: linear-gradient(270deg, #00ffff, #ff00ff, #ffff00);
+            background-size: 200% 200%;
+            animation: gradient-animation 5s ease infinite;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @keyframes gradient-animation {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="gradient-header"></div>
+        <div class="container">
+            <h1 class="gradient-text">Rachakonda Sai Dinesh</h1>
+            <p>Data Scientist | Software Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="section">
+            <h2 class="gradient-text">Welcome to My Portfolio</h2>
+            <p>Hello! I'm Rachakonda Sai Dinesh, a passionate Data Scientist and Software Engineer with expertise in machine learning, data analysis, and software development.</p>
+            <img src="your-photo.jpg" alt="Rachakonda Sai Dinesh" style="max-width: 200px; border-radius: 50%;">
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="gradient-text">About Me</h2>
+            <p>I'm currently pursuing my Master of Science in Data Science at the University at Buffalo, The State University of New York, with an expected graduation in June 2025. My academic journey has equipped me with a strong foundation in data cleansing, structured data analysis, data visualization, and machine learning model development.</p>
+            <p>Prior to my master's, I completed my Bachelor of Engineering in Electronics & Telecommunication from KL University in May 2021. During my undergraduate studies, I honed my coding skills through participation in multiple contests on Hacker-Rank, focusing on data structures and algorithms (DSA) and object-oriented programming (OOP) in Java.</p>
+            <p>My professional experience includes working as a Project Engineer at Wipro India Pvt. Ltd from September 2021 to July 2023, where I applied the Spring Framework to manage application development lifecycles and implemented various software engineering best practices.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="gradient-text">Work Experience</h2>
+            <div class="experience">
+                <h3>Project Engineer</h3>
+                <p><strong>Wipro India Pvt. Ltd, India</strong> | September 2021 - July 2023</p>
+                <ul>
+                    <li>Applied the Spring Framework to manage application development lifecycle, ensuring robust and scalable solutions for clients.</li>
+                    <li>Leveraged version control systems, resulting in a 30% reduction in code conflicts.</li>
+                    <li>Established continuous integration pipelines, decreasing deployment time by 40%.</li>
+                    <li>Utilized automated testing frameworks, increasing test coverage by 50% and identifying 80% more bugs prior to deployment.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="gradient-text">Projects</h2>
+            <div class="project">
+                <h3>Uber Data Analytics | Modern Data Engineering GCP Project</h3>
+                <p>Developed a comprehensive data analytics solution for Uber using Google Cloud Platform. Utilized GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio to analyze TLC Trip Record Data. The project involved processing yellow and green taxi trip records, including pick-up and drop-off details, trip distances, fares, and passenger counts. This modern data engineering project showcased proficiency in cloud-based data analytics and visualization techniques.</p>
+            </div>
+            <div class="project">
+                <h3>Micro-services based Shopping Platform Optimization</h3>
+                <p>Implemented a scalable micro-services architecture handling 10,500+ concurrent users. Enhanced Cart API with real-time updates, achieving 98ms average response time for 101,000 transactions/hour. Integrated Orders with payment gateways, processing 5,215+ daily transactions with 99.9% success rate. Created user authentication for 50,000+ users and improved caching, reducing database load by 70%.</p>
+            </div>
+            <div class="project">
+                <h3>Celestial Impact: Meteorite Database Normalization & Fall Prediction</h3>
+                <p>Analyzed 45,000+ meteorite records, created a normalized SQLite database with 5 tables. Developed a predictive model with 90% accuracy in classifying meteorite fall types. Achieved 98.62% accuracy using classification algorithms. Implemented data visualization for 10,000+ meteorite landings.</p>
+            </div>
+            <div class="project">
+                <h3>Predictive Maintenance for Manufacturing Equipment</h3>
+                <p>Developed a machine learning model to predict equipment failures before occurrence. Collected and analyzed sensor data from manufacturing equipment. Engineered features from time-series data. Trained and evaluated multiple models (e.g., Random Forest, LSTM). Achieved 85%+ accuracy in predicting potential equipment failures.</p>
+            </div>
+            <div class="project">
+                <h3>Customer Churn Prediction for Telecom Industry</h3>
+                <p>Built a model to identify high-risk customers for churn. Analyzed historical customer data, including usage patterns and demographics. Performed feature engineering to create relevant predictors. Trained various classification models (e.g., Logistic Regression, XGBoost). Developed an interpretable model to identify key churn factors. Achieved 90%+ accuracy in identifying potential churners.</p>
+            </div>
+            <div class="project">
+                <h3>Real-time Fraud Detection for E-commerce Transactions</h3>
+                <p>Implemented a real-time fraud detection system for e-commerce transactions. Collected and preprocessed historical transaction data. Performed extensive feature engineering, including time-based and behavioral features. Trained an ensemble of models (e.g., Random Forest, Gradient Boosting). Implemented a real-time scoring system using streaming data processing. Achieved a false positive rate below 0.1% and a recall rate above 95% for fraudulent transactions.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="gradient-text">Skills</h2>
+            <div class="skills-container">
+                <div class="skill" style="background: radial-gradient(circle, rgba(255,0,255,0.8) 0%, rgba(255,0,255,0) 70%);">Java</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(0,255,255,0.8) 0%, rgba(0,255,255,0) 70%);">Python</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(255,255,0,0.8) 0%, rgba(255,255,0,0) 70%);">R</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(255,0,0,0.8) 0%, rgba(255,0,0,0) 70%);">MySQL</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(0,255,0,0.8) 0%, rgba(0,255,0,0) 70%);">SQLite</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(0,0,255,0.8) 0%, rgba(0,0,255,0) 70%);">NoSQL</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(255,0,0,0.8) 0%, rgba(0,0,255,0) 70%);">PowerBI</div>
+                <div class="skill" style="background: radial-gradient(circle, rgba(0,255,0,0.8) 0%, rgba(0,0,255,0) 70%);">AWS</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Rachakonda Sai Dinesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    var granimInstance = new Granim({
+        element: '#gradient-header',
+        direction: 'diagonal',
+        isPausedWhenNotInView: true,
+        states : {
+            "default-state": {
+                gradients: [
+                    ['#00ffff', '#ff00ff'],
+                    ['#ff00ff', '#ffff00'],
+                    ['#ffff00', '#00ffff']
+                ]
+            }
+        }
+    });
+    </script>
+</body>
+</html>
